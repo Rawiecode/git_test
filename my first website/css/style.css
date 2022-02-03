@@ -2,13 +2,88 @@ body {
     background-color: black;
     color:white;
     font-size: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 p{
     color: rgb(209, 218, 86);
+    line-height: 1.5;
+    font-weight:lighter;
+    text-align:center;
 }
 
 h4{
     color:pink;
     font-size: 45px;
+    padding: 25px 50px 75px 100px;
+    background: cyan;
+    width: 200px;
+    margin: 25px;
+    border: 10px green solid;
+}
+
+/* margin: empty space around my element.
+border: a border / stroke / around my element.
+padding: empty space WITH background around my element. */
+
+h5{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.top-section {
+    background: grey;
+    font-size: 40px;
+}
+
+.bottom-section {
+    background: white;
+    border: yellow 5px solid;
+}
+
+.bottom {
+    background-color: yellow;
+    color: black;
+}
+
+.bottom-section {
+    background-color: blue;
+    color: white;
+}
+
+.highlight {
+    background-color: pink;
+    color: whitesmoke;
+    font-size: 40px;
+    margin-top: 50px;
+    border-left-color: green;
+    border-right-color: purple;
+    border-left-style:dashed;
+    border-right-style:double;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    background-image: url(../img/space.jpg);
+    background-size: cover;
+    background-position: center;
+    text-transform:capitalize;
+}
+
+#id {
+    background-color: green;
+    color: black;
+    margin: 50px;
+    border-width: 10px;
+    border-color: pink;
+    border-style:groove;
+    background-image: url(../img/moroccan-flower.png)
+}
+
+/* . then the class name means you're calling for the class */
+
+.hamster {
+    background-image: url(../img/hamster.jpg);
+    background-repeat: no-repeat;
+    padding: 300px;
+    margin: 50x;
+    color: black;
 }
